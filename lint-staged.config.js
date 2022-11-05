@@ -1,3 +1,3 @@
 module.exports = {
-	"**/*.(ts|tsx)": () => "npx tsc --noEmit",
+	"*": () => "npm run validate",
 };
